@@ -1,0 +1,58 @@
+# Ficha del proyecto confidencial "sanidad-nutricion-parenteral". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: sanidad-nutricion-parenteral
+anio: 2026
+empresa: Accenture Spain
+sector_en: Healthcare
+sector_es: Sanidad
+
+titulo_en: Healthcare · Parenteral nutrition platform
+titulo_es: Sanidad · Plataforma de nutrición parenteral
+etiquetas_en: Global software, Design system, UX, AI in the process
+etiquetas_es: Software global, Design system, UX, IA en el proceso
+etiquetas_tarjeta_en: Global software, Design system, UX
+etiquetas_tarjeta_es: Software global, Design system, UX
+
+descripcion_en: |
+  Unification and migration of the internal platforms for managing and manufacturing parenteral nutrition to a new solution, with a redesign of the user flows and the whole visual system.
+
+  Clinical decisions, pharmaceutical workflows and production processes lived in separate tools, with no shared terminology and a real compliance risk. The new platform covers the whole journey from prescription to production and delivery, for four user roles (physicians, pharmacists, production teams and operations staff), each with different responsibilities, permissions and constraints.
+
+descripcion_es: |
+  Unificación y migración de las plataformas internas de gestión y fabricación de nutrición parenteral hacia una nueva solución, con rediseño de los flujos de usuario y de todo el sistema visual.
+
+  Las decisiones clínicas, los flujos farmacéuticos y los procesos de producción estaban repartidos en herramientas distintas, sin terminología común y con un riesgo real de incumplimiento normativo. La nueva plataforma cubre todo el recorrido, de la prescripción a la producción y la entrega, para cuatro roles de usuario (médicos, farmacéuticos, equipos de producción y personal de operaciones), cada uno con responsabilidades, permisos y restricciones distintos.
+
+hizo_en:
+  - Mapping of what the system could and could not do before designing any screen, and definition of its behavior boundaries.
+  - Analysis of the existing functional flows to identify improvements and define the new user flow.
+  - Creation of a complete, responsive and accessible design system, built from scratch before the screens.
+  - Design of end-to-end flows and screens for six modules, aligned with the requirements of global software and with regulatory compliance.
+  - Separate views for each user role, with no shared screens.
+  - Unification of system states to guarantee logical consistency across all flows, with traceability of every state, transition and modification.
+  - Contribution to the visual identity and redesign of the software logo.
+  - Workshops with clinical and pharmaceutical teams, and training workshops with the client to explain the application and the design system.
+  - Meetings to validate flows and design proposals.
+  - Preparation and delivery of technical documentation to the client.
+  - HTML prototypes generated with Claude Design to test interactions, and use of Claude at different points of the design process.
+  - Teamwork with another product designer and a UX researcher.
+
+hizo_es:
+  - Mapeo de lo que el sistema podía y no podía hacer antes de diseñar ninguna pantalla, y definición de sus límites de comportamiento.
+  - Análisis de los flujos funcionales existentes para identificar mejoras y definir el nuevo flujo de usuario.
+  - Creación de un sistema de diseño completo, responsive y accesible, construido desde cero antes que las pantallas.
+  - Diseño de flujos y pantallas de principio a fin para seis módulos, alineados con los requerimientos de un software global y con el cumplimiento normativo.
+  - Vistas separadas para cada rol de usuario, sin pantallas compartidas.
+  - Unificación de los estados del sistema para garantizar coherencia lógica en todos los flujos, con trazabilidad de cada estado, transición y modificación.
+  - Contribución a la identidad visual y rediseño del logotipo del software.
+  - Workshops con los equipos clínicos y farmacéuticos, y workshops de formación con el cliente para explicar la aplicación y el sistema de diseño.
+  - Reuniones de validación de flujos y propuestas de diseño.
+  - Preparación y entrega de documentación técnica al cliente.
+  - Prototipos HTML generados con Claude Design para comprobar interacciones, y uso de Claude en distintos momentos del proceso de diseño.
+  - Trabajo en equipo con otra diseñadora o diseñador de producto y una persona de UX Research.
+
+herramientas: Figma, Figma Make, Claude
+
+portada_alt_en: Screen of a parenteral nutrition management platform with blurred text and data: a blue header with a menu, a patient data bar, tabs, general information forms and several tables with editable fields and action buttons.
+portada_alt_es: Pantalla de una plataforma de gestión de nutrición parenteral con textos y datos desenfocados: cabecera azul con menú, una barra de datos del paciente, pestañas, formularios de información general y varias tablas con campos editables y botones de acción.

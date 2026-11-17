@@ -1,0 +1,44 @@
+# Ficha del proyecto confidencial "seguros-migracion-aem". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: seguros-migracion-aem
+anio: 2025
+empresa: Accenture Spain
+sector_en: Insurance
+sector_es: Seguros
+
+titulo_en: Insurance · AEM migration
+titulo_es: Seguros · Migración a AEM
+etiquetas_en: Web, Adobe Experience Manager, Information architecture
+etiquetas_es: Web, Adobe Experience Manager, Arquitectura de información
+etiquetas_tarjeta_en: Web, AEM, Information architecture
+etiquetas_tarjeta_es: Web, AEM, Arquitectura de información
+
+descripcion_en: |
+  Migration of three corporate websites to Adobe Experience Manager and their unification into a single site for an insurance company.
+
+descripcion_es: |
+  Migración de tres webs corporativas a Adobe Experience Manager y unificación en un único sitio para una aseguradora.
+
+hizo_en:
+  - Information architecture: the as-is structure of the three websites and the to-be structure of the unified site.
+  - Redesign of components and experience according to information needs.
+  - Design of components suited to their later configuration in Adobe Experience Manager.
+  - Alignment with the client on design, requirements and proposals: relocation of cross-cutting information, colors and layout.
+  - Documentation of the design system, color tokens and typography.
+  - Functional prototype for a client demo and later adjustments.
+  - Documentation of component behavior for development and accessibility clarifications.
+
+hizo_es:
+  - Arquitectura de la información: estructura As-Is de las tres webs y To-Be de la web unificada.
+  - Rediseño de componentes y experiencia según las necesidades de información.
+  - Diseño de componentes adecuados para su posterior configuración en Adobe Experience Manager.
+  - Alineamiento con el cliente de diseño, requisitos y propuestas: reubicación de información transversal, colores y disposición.
+  - Documentación del sistema de diseño, tokens de color y tipografía.
+  - Prototipo funcional para demo al cliente y ajustes posteriores.
+  - Documentación de comportamiento de componentes para desarrollo y aclaraciones sobre accesibilidad.
+
+herramientas: Figma, Figma Make
+
+portada_alt_en: Overview of the website component library in grayscale, grouped by type: content in columns, map, running text, pagination, sharing, app download, 404 error, results cards, video section, image banners, banner card and quote.
+portada_alt_es: Imagen principal del proyecto: Seguros · Migración a AEM

@@ -1,0 +1,53 @@
+# ===========================================================================================
+# PLANTILLA DE PROYECTO CONFIDENCIAL
+# Estructura FIJA y siempre igual: portada con candado, Descripción, En qué consistió,
+# Herramientas y aviso de acuerdo de confidencialidad. No admite secciones extra.
+#
+# Cómo usarla:  python3 tools/nuevo-proyecto.py mi-proyecto confidencial
+#   (copia esta plantilla a fichas/mi-proyecto.txt y lo añade a fichas/orden.txt)
+# Después edita la ficha y ejecuta:  python3 tools/construir.py
+#
+# Reglas del formato:
+#   - Las líneas que empiezan por # son comentarios.
+#   - Todo texto va en DOS idiomas: campo_en (inglés) y campo_es (español).
+#   - Un texto de varias líneas se escribe con "|" y las líneas siguientes con 2 espacios de sangría.
+#     Una línea en blanco separa párrafos.
+#   - Una lista se escribe con "- " al principio de cada línea (en inglés y en español, mismos elementos).
+# ===========================================================================================
+tipo: confidencial
+archivo: mi-proyecto              # nombre del archivo (minúsculas, números y guiones). Debe coincidir con el de esta ficha
+anio: 2026
+empresa: Accenture Spain
+# Tipo de cliente (para el filtro de Inicio): se usa el mismo texto en todos los proyectos del mismo sector
+sector_en: Healthcare
+sector_es: Sanidad
+
+titulo_en: Sector · Project name
+titulo_es: Sector · Nombre del proyecto
+etiquetas_en: Web, Design system, UX
+etiquetas_es: Web, Design system, UX
+# Opcional: si la tarjeta de Inicio debe llevar menos etiquetas que la página
+# etiquetas_tarjeta_en: Web, UX
+# etiquetas_tarjeta_es: Web, UX
+
+descripcion_en: |
+  What the project was about, in one or two sentences. Do not name the client.
+
+descripcion_es: |
+  De qué trataba el proyecto, en una o dos frases. No nombres al cliente.
+
+hizo_en:
+  - First task you carried out.
+  - Second task you carried out.
+
+hizo_es:
+  - Primera tarea que realizaste.
+  - Segunda tarea que realizaste.
+
+# Herramientas separadas por comas. Con logo automático: Figma, Figma Make, Claude Code, Jira, Atlassian, VoiceOver (iOS).
+# Para otras con logo propio: Nombre|archivo.svg (el archivo debe estar en assets/img/).
+herramientas: Figma
+
+# Portada: sube la imagen recortada a assets/img/mi-proyecto.jpg (16:10, ver GUIA.md) y descríbela aquí
+portada_alt_en: Describe what the cover image shows (blurred screens, layout, colors).
+portada_alt_es: Describe lo que muestra la imagen de portada (pantallas desenfocadas, estructura, colores).

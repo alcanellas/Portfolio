@@ -1,0 +1,182 @@
+# ===========================================================================================
+# PLANTILLA DE PROYECTO ABIERTO (no confidencial)
+# Estructura CONFIGURABLE: después de la cabecera y la portada, tú decides qué secciones llevar,
+# en qué orden y cuántas. Cada sección empieza con una línea  [seccion tipo]
+#
+# Cómo usarla:  python3 tools/nuevo-proyecto.py mi-proyecto abierto
+# Después edita la ficha y ejecuta:  python3 tools/construir.py
+#
+# Secciones disponibles (borra las que no necesites, cámbialas de orden o repítelas):
+#   texto          título + párrafos                       (ancho: completo | mitad)
+#   lista          título + lista con viñetas               (ancho: completo | mitad)
+#   herramientas   logos y nombres de herramientas
+#   imagen         una imagen con pie                       (ajuste: entera | recortada)
+#   galeria        varias imágenes en 2 o 3 columnas        ([[imagen]] repetido)
+#   carrusel       imágenes que se deslizan                 ([[diapositiva]] repetido)
+#   tarjetas       tarjetas con etiqueta, título y texto    ([[tarjeta]] repetido)
+#   texto-imagen   texto a un lado e imagen al otro         (lado: derecha | izquierda)
+#   cita           una frase destacada
+#   datos          cifras clave                             ([[dato]] repetido)
+#   enlace         botón que abre una web
+# Las secciones "texto" y "lista" con "ancho: mitad" que van seguidas se colocan lado a lado.
+#
+# Reglas del formato:
+#   - Las líneas que empiezan por # son comentarios.
+#   - Todo texto va en DOS idiomas: campo_en (inglés) y campo_es (español).
+#   - Un texto de varias líneas se escribe con "|" y las líneas siguientes con 2 espacios de sangría.
+#     Una línea en blanco separa párrafos.
+#   - Una lista se escribe con "- " al principio de cada línea (mismos elementos en ambos idiomas).
+#   - Las imágenes se suben a assets/img/ (ver GUIA.md) y aquí se pone solo el nombre del archivo.
+# ===========================================================================================
+tipo: abierto
+archivo: mi-proyecto              # nombre del archivo (minúsculas, números y guiones). Debe coincidir con el de esta ficha
+anio: 2026
+empresa: Accenture Spain          # o el nombre que corresponda (proyecto personal, etc.)
+# Tipo de cliente (para el filtro de Inicio): se usa el mismo texto en todos los proyectos del mismo sector
+sector_en: Healthcare
+sector_es: Sanidad
+
+titulo_en: Project name
+titulo_es: Nombre del proyecto
+etiquetas_en: Web, UX
+etiquetas_es: Web, UX
+
+# Portada (opcional "portada": por defecto assets/img/mi-proyecto.jpg) y etiqueta en una esquina (opcional)
+# portada: otro-nombre.jpg
+portada_alt_en: Describe what the cover image shows.
+portada_alt_es: Describe lo que muestra la imagen de portada.
+portada_etiqueta_en: Personal project
+portada_etiqueta_es: Proyecto personal
+
+# Opcional: texto para buscadores (si no se pone, se usa el título)
+# meta_en: Short description of the project for search engines.
+# meta_es: Descripción breve del proyecto para buscadores.
+
+[seccion texto]
+ancho: mitad
+titulo_en: Description
+titulo_es: Descripción
+texto_en: |
+  First paragraph.
+
+  Second paragraph.
+texto_es: |
+  Primer párrafo.
+
+  Segundo párrafo.
+
+[seccion lista]
+ancho: mitad
+titulo_en: What it involved
+titulo_es: En qué consistió
+items_en:
+  - First task.
+  - Second task.
+items_es:
+  - Primera tarea.
+  - Segunda tarea.
+
+[seccion herramientas]
+herramientas: Figma, Claude Code
+
+[seccion imagen]
+titulo_en: A key screen
+titulo_es: Una pantalla clave
+archivo: mi-proyecto-pantalla.jpg
+ajuste: entera
+alt_en: Describe what the image shows and what it tells the reader.
+alt_es: Describe lo que muestra la imagen y lo que aporta.
+pie_en: Short caption
+pie_es: Pie de foto breve
+
+[seccion galeria]
+titulo_en: More screens
+titulo_es: Más pantallas
+columnas: 2
+[[imagen]]
+archivo: mi-proyecto-1.jpg
+alt_en: Describe the first image.
+alt_es: Describe la primera imagen.
+pie_en: Caption one
+pie_es: Pie uno
+[[imagen]]
+archivo: mi-proyecto-2.jpg
+alt_en: Describe the second image.
+alt_es: Describe la segunda imagen.
+pie_en: Caption two
+pie_es: Pie dos
+
+[seccion carrusel]
+titulo_en: Process
+titulo_es: Proceso
+[[diapositiva]]
+archivo: mi-proyecto-proceso-1.jpg
+alt_en: Describe the first slide.
+alt_es: Describe la primera diapositiva.
+pie_en: Step 1
+pie_es: Paso 1
+[[diapositiva]]
+archivo: mi-proyecto-proceso-2.jpg
+alt_en: Describe the second slide.
+alt_es: Describe la segunda diapositiva.
+pie_en: Step 2
+pie_es: Paso 2
+
+[seccion tarjetas]
+titulo_en: Structure
+titulo_es: Estructura
+intro_en: Short introduction to the cards.
+intro_es: Introducción breve a las tarjetas.
+[[tarjeta]]
+etiqueta_en: Part 1 of 2
+etiqueta_es: Parte 1 de 2
+titulo_en: Card title
+titulo_es: Título de la tarjeta
+texto_en: Card text.
+texto_es: Texto de la tarjeta.
+[[tarjeta]]
+etiqueta_en: Part 2 of 2
+etiqueta_es: Parte 2 de 2
+titulo_en: Another card
+titulo_es: Otra tarjeta
+texto_en: More text.
+texto_es: Más texto.
+
+[seccion texto-imagen]
+titulo_en: Workshops
+titulo_es: Workshops
+lado: derecha
+texto_en: |
+  Text on one side.
+
+  A second paragraph.
+texto_es: |
+  Texto a un lado.
+
+  Un segundo párrafo.
+archivo: mi-proyecto-workshops.jpg
+alt_en: Describe the image.
+alt_es: Describe la imagen.
+
+[seccion cita]
+texto_en: A sentence worth highlighting.
+texto_es: Una frase que merece destacarse.
+autor_en: Who said it
+autor_es: Quién lo dijo
+
+[seccion datos]
+titulo_en: Key figures
+titulo_es: Cifras clave
+[[dato]]
+valor: 12
+etiqueta_en: screens designed
+etiqueta_es: pantallas diseñadas
+[[dato]]
+valor: 3
+etiqueta_en: workshops given
+etiqueta_es: workshops impartidos
+
+[seccion enlace]
+texto_en: Visit the live site
+texto_es: Visitar la web
+url: https://example.com

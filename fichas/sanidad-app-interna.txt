@@ -1,0 +1,40 @@
+# Ficha del proyecto confidencial "sanidad-app-interna". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: sanidad-app-interna
+anio: 2025
+empresa: Accenture Spain
+sector_en: Healthcare
+sector_es: Sanidad
+
+titulo_en: Health platform UX redesign
+titulo_es: Rediseño UX plataforma salud
+etiquetas_en: Internal app, Health center, UX
+etiquetas_es: App interna, Centro de salud, UX
+
+descripcion_en: |
+  Intuitive digital experience for an internal application used by professionals at a health center: a platform for monitoring hospital-acquired infections.
+
+descripcion_es: |
+  Experiencia digital intuitiva para una aplicación interna de profesionales de un centro de salud: plataforma de vigilancia de infecciones nosocomiales.
+
+hizo_en:
+  - Functional and technical design of the platform.
+  - Analysis of the information architecture of the previous platform.
+  - Usability optimization.
+  - Design proposals with low- and high-fidelity prototypes.
+  - Definition and design of user flows.
+  - Conceptualization and design of components.
+
+hizo_es:
+  - Diseño funcional y técnico de la plataforma.
+  - Análisis de la arquitectura de la información de la plataforma anterior.
+  - Optimización de la usabilidad.
+  - Propuestas de diseño con prototipos de baja y alta fidelidad.
+  - Definición y diseño de flujos de usuario.
+  - Conceptualización y diseño de componentes.
+
+herramientas: Figma
+
+portada_alt_en: Overview of the design file for an internal health center application, with illegible detail: many labeled frames with screens, modals, tables, forms and components arranged in columns on a gray canvas.
+portada_alt_es: Vista general del archivo de diseño de una aplicación interna de un centro de salud, con detalle ilegible: muchos marcos etiquetados con pantallas, modales, tablas, formularios y componentes organizados en columnas sobre un lienzo gris.

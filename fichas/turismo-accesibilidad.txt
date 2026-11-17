@@ -1,0 +1,40 @@
+# Ficha del proyecto confidencial "turismo-accesibilidad". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: turismo-accesibilidad
+anio: 2025
+empresa: Accenture Spain
+sector_en: Tourism
+sector_es: Turismo
+
+titulo_en: Tourism · Accessibility in a design system
+titulo_es: Turismo · Accesibilidad en design system
+etiquetas_en: Web, Accessibility
+etiquetas_es: Web, Accesibilidad
+
+descripcion_en: |
+  Accessibility handoff together with the team that created the design system of a tourism website.
+
+descripcion_es: |
+  Handoff de accesibilidad junto al equipo creador del sistema de diseño de un sitio web de turismo.
+
+hizo_en:
+  - Accessibility research.
+  - Analysis of the existing design system.
+  - Proposal of accessible solutions.
+  - Alignment with the design and development leads.
+  - Documentation consistent with that created by the design team.
+  - Post-development Q&A.
+
+hizo_es:
+  - Investigación en accesibilidad.
+  - Análisis del sistema de diseño existente.
+  - Propuesta de soluciones accesibles.
+  - Alineamiento con los responsables de diseño y desarrollo.
+  - Documentación coherente con la creada por el equipo de diseño.
+  - Q&A posterior al desarrollo.
+
+herramientas: Figma, WCAG, VoiceOver (iOS)
+
+portada_alt_en: Accessibility documentation for a design system search component, with blurred text: an introductory paragraph and an illustration of the component with a search field, a list of suggestions and numbered yellow annotations about its behavior.
+portada_alt_es: Documentación de accesibilidad de un componente de búsqueda de un design system, con textos desenfocados: un párrafo introductorio y una ilustración del componente con un campo de búsqueda, una lista de sugerencias y anotaciones numeradas en amarillo sobre su comportamiento.

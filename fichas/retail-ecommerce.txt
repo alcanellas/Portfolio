@@ -1,0 +1,42 @@
+# Ficha del proyecto confidencial "retail-ecommerce". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: retail-ecommerce
+anio: 2024
+empresa: Accenture Spain
+sector_en: Retail
+sector_es: Retail
+
+titulo_en: E-commerce
+titulo_es: E-commerce
+etiquetas_en: Web, Multi-brand, Design system
+etiquetas_es: Web, Multimarca, Design system
+
+descripcion_en: |
+  Creation of a versatile, multi-brand digital product, adaptable to the company’s different brands and their needs.
+
+descripcion_es: |
+  Creación de un producto digital versátil y multimarca, adaptable a las distintas marcas de la compañía y a sus necesidades.
+
+hizo_en:
+  - Discovery sessions with the client to understand the functional requirements.
+  - Definition of user flows.
+  - Design proposals with low- and high-fidelity prototypes.
+  - Design of cross-brand components using Figma variables and modes, taking care of responsiveness and of the differences in structure and behavior between brands.
+  - Follow-up and validation during development and testing.
+  - Collaboration with the development teams to ensure a high-quality, consistent product.
+  - Work in sprints with an agile methodology.
+
+hizo_es:
+  - Sesiones de descubrimiento con el cliente para entender los requisitos funcionales.
+  - Definición de flujos de usuario.
+  - Propuestas de diseño con prototipos de baja y alta fidelidad.
+  - Diseño de componentes transversales con variables y modos de Figma, cuidando el responsive y las diferencias de estructura y comportamiento entre marcas.
+  - Seguimiento y validación durante desarrollo y testing.
+  - Colaboración con los equipos de desarrollo para asegurar un producto de calidad y consistente.
+  - Trabajo en sprints con metodología ágil.
+
+herramientas: Figma, Jira, Atlassian
+
+portada_alt_en: Tilted collage of a design system’s documentation, with illegible text: component labels grouped by category, color swatches and states of dark and outline buttons, and grayscale page mockups.
+portada_alt_es: Collage inclinado de la documentación de un design system, con textos ilegibles: etiquetas de componentes agrupadas por categoría, muestras de color y estados de botones oscuros y de contorno, y maquetas de páginas en escala de grises.

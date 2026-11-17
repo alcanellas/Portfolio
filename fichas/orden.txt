@@ -1,0 +1,9 @@
+# Orden de los proyectos en la web, de arriba abajo (un nombre por línea, sin .html).
+# Los que tienen ficha en esta carpeta se generan con "python3 tools/construir.py".
+# Los que NO tienen ficha (design-system-marca-blanca) son páginas hechas a mano: se ordenan y enlazan igual.
+design-system-marca-blanca
+sanidad-nutricion-parenteral
+seguros-migracion-aem
+turismo-accesibilidad
+sanidad-app-interna
+retail-ecommerce
