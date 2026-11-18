@@ -561,12 +561,20 @@ def cuerpo_confidencial(p, pre):
     if len(pe) != len(ps):
         raise FichaError(f"{p.nombre}: 'descripcion_en' tiene {len(pe)} párrafos y 'descripcion_es' {len(ps)}; deben coincidir")
     he, hs = bi(c, "hizo", p.nombre)
+    if isinstance(he, str):          # texto corrido: uno o varios párrafos
+        phe, phs = parrafos(he), parrafos(hs if isinstance(hs, str) else " ".join(hs))
+        if len(phe) != len(phs):
+            raise FichaError(f"{p.nombre}: 'hizo_en' tiene {len(phe)} párrafos y 'hizo_es' {len(phs)}; deben coincidir")
+        ps_hizo = "\n".join(f'            <p{p.T(f"hizo_{i + 1}", a, b)}>{esc(a)}</p>' for i, (a, b) in enumerate(zip(phe, phs)))
+        hizo_html = '          <div class="tasks">\n' + ps_hizo + "\n          </div>\n"
+    else:                            # lista con "- elemento"
+        lis = "\n".join(f'            <li{p.T(f"hizo_{i + 1}", a, b)}>{esc(a)}</li>' for i, (a, b) in enumerate(zip(he, hs)))
+        hizo_html = '          <ul class="tasks">\n' + lis + "\n          </ul>\n"
     # el texto de la descripción se registra con la misma clave que usa la meta description
     p.meta_clave = None
     if len(pe) >= 1 and pe[0] != ps[0]:
         p.meta_clave = p.clave("desc_1")
     pars = "\n".join(f'          <p class="summary"{p.T(f"desc_{i + 1}", a, b)}>{esc(a)}</p>' for i, (a, b) in enumerate(zip(pe, ps)))
-    lis = "\n".join(f'            <li{p.T(f"hizo_{i + 1}", a, b)}>{esc(a)}</li>' for i, (a, b) in enumerate(zip(he, hs)))
     return ('      <div class="project-body">\n'
             "        <section>\n"
             f'          <h2 class="h4"{comun_attr("description")}>Description</h2>\n'
@@ -574,9 +582,7 @@ def cuerpo_confidencial(p, pre):
             "        </section>\n"
             "        <section>\n"
             f'          <h2 class="h4"{comun_attr("what_it_involved")}>What it involved</h2>\n'
-            '          <ul class="tasks">\n'
-            f"{lis}\n"
-            "          </ul>\n"
+            + hizo_html +
             "        </section>\n"
             + bloque_herramientas(p, pre, None, req(c, "herramientas", p.nombre)) + "\n"
             "      </div>")

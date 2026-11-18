@@ -9,8 +9,8 @@ sector_es: Seguros
 
 titulo_en: Insurance · AEM migration
 titulo_es: Seguros · Migración a AEM
-etiquetas_en: Information Architecture · As-Is / To-Be · UX Design · AEM · Component Design · Accessibility · Functional Prototyping · Stakeholder Management · Design-Development Collaboration
-etiquetas_es: Information Architecture · As-Is / To-Be · UX Design · AEM · Component Design · Accessibility · Functional Prototyping · Stakeholder Management · Design-Development Collaboration
+etiquetas_en: Information Architecture, As-Is / To-Be, UX Design, AEM, Component Design, Accessibility, Functional Prototyping, Stakeholder Management, Design-Development Collaboration
+etiquetas_es: Arquitectura de información, As-Is / To-Be, Diseño UX, AEM, Diseño de componentes, Accesibilidad, Prototipado funcional, Gestión de stakeholders, Colaboración diseño-desarrollo
 etiquetas_tarjeta_en: Web, AEM, Information architecture
 etiquetas_tarjeta_es: Web, AEM, Arquitectura de información
 
@@ -29,4 +29,4 @@ hizo_es: |
 herramientas: Figma, Figma Make
 
 portada_alt_en: Overview of the website component library in grayscale, grouped by type: content in columns, map, running text, pagination, sharing, app download, 404 error, results cards, video section, image banners, banner card and quote.
-portada_alt_es: Imagen principal del proyecto: Seguros · Migración a AEM
+portada_alt_es: Vista general de la biblioteca de componentes web en escala de grises, agrupados por tipo: contenido en columnas, mapa, texto corrido, paginación, compartir, descarga de app, error 404, tarjetas de resultados, sección de vídeo, banners de imagen, banner con tarjeta y cita.
