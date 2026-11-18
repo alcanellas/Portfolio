@@ -20,10 +20,10 @@ descripcion_en: |
 descripcion_es: |
   Unificación de tres plataformas web en una única experiencia digital como parte de su migración a Adobe Experience Manager (AEM). El proyecto implicó replantear la estructura, navegación y presentación del contenido para construir una experiencia más coherente y preparada para funcionar bajo un mismo ecosistema digital.
 
-hizo_en:
+hizo_en: |
   The work started by analysing and defining the As-Is and To-Be information architecture, reviewing the three existing platforms to establish the structure of the new unified website. Based on this analysis, content was reorganised and both the user experience and required components were redesigned. Solutions were iteratively validated with stakeholders through functional prototypes, followed by close collaboration with the development team to define component behaviour, document solutions and ensure accessibility requirements were considered throughout implementation.
 
-hizo_es:
+hizo_es: |
   El trabajo comenzó con el análisis y definición de la arquitectura de información As-Is y To-Be, estudiando las tres plataformas existentes para establecer la estructura de la nueva web unificada. A partir de este análisis se reorganizaron contenidos y se rediseñaron la experiencia y los componentes necesarios. Las propuestas se validaron de manera iterativa con stakeholders mediante prototipos funcionales, trabajando posteriormente junto al equipo de desarrollo para definir el comportamiento de los componentes, documentar las soluciones y garantizar el cumplimiento de los requisitos de accesibilidad durante la implementación.
 
 herramientas: Figma, Figma Make
