@@ -9,24 +9,36 @@ sector_es: Seguros
 
 titulo_en: Insurance · AEM migration
 titulo_es: Seguros · Migración a AEM
-etiquetas_en: Information Architecture, As-Is / To-Be, UX Design, AEM, Component Design, Accessibility, Functional Prototyping, Stakeholder Management, Design-Development Collaboration
-etiquetas_es: Arquitectura de información, As-Is / To-Be, Diseño UX, AEM, Diseño de componentes, Accesibilidad, Prototipado funcional, Gestión de stakeholders, Colaboración diseño-desarrollo
+etiquetas_en: Web, Adobe Experience Manager, Information architecture
+etiquetas_es: Web, Adobe Experience Manager, Arquitectura de información
 etiquetas_tarjeta_en: Web, AEM, Information architecture
 etiquetas_tarjeta_es: Web, AEM, Arquitectura de información
 
 descripcion_en: |
-  Unification of three websites into a single digital experience as part of their migration to Adobe Experience Manager (AEM). The project involved rethinking the information structure, navigation and content presentation to create a more consistent experience within a unified digital ecosystem.
+  Migration of three corporate websites to Adobe Experience Manager and their unification into a single site for an insurance company.
 
 descripcion_es: |
-  Unificación de tres plataformas web en una única experiencia digital como parte de su migración a Adobe Experience Manager (AEM). El proyecto implicó replantear la estructura, navegación y presentación del contenido para construir una experiencia más coherente y preparada para funcionar bajo un mismo ecosistema digital.
+  Migración de tres webs corporativas a Adobe Experience Manager y unificación en un único sitio para una aseguradora.
 
-hizo_en: |
-  The work started by analysing and defining the As-Is and To-Be information architecture, reviewing the three existing platforms to establish the structure of the new unified website. Based on this analysis, content was reorganised and both the user experience and required components were redesigned. Solutions were iteratively validated with stakeholders through functional prototypes, followed by close collaboration with the development team to define component behaviour, document solutions and ensure accessibility requirements were considered throughout implementation.
+hizo_en:
+  - Information architecture: the as-is structure of the three websites and the to-be structure of the unified site.
+  - Redesign of components and experience according to information needs.
+  - Design of components suited to their later configuration in Adobe Experience Manager.
+  - Alignment with the client on design, requirements and proposals: relocation of cross-cutting information, colors and layout.
+  - Documentation of the design system, color tokens and typography.
+  - Functional prototype for a client demo and later adjustments.
+  - Documentation of component behavior for development and accessibility clarifications.
 
-hizo_es: |
-  El trabajo comenzó con el análisis y definición de la arquitectura de información As-Is y To-Be, estudiando las tres plataformas existentes para establecer la estructura de la nueva web unificada. A partir de este análisis se reorganizaron contenidos y se rediseñaron la experiencia y los componentes necesarios. Las propuestas se validaron de manera iterativa con stakeholders mediante prototipos funcionales, trabajando posteriormente junto al equipo de desarrollo para definir el comportamiento de los componentes, documentar las soluciones y garantizar el cumplimiento de los requisitos de accesibilidad durante la implementación.
+hizo_es:
+  - Arquitectura de la información: estructura As-Is de las tres webs y To-Be de la web unificada.
+  - Rediseño de componentes y experiencia según las necesidades de información.
+  - Diseño de componentes adecuados para su posterior configuración en Adobe Experience Manager.
+  - Alineamiento con el cliente de diseño, requisitos y propuestas: reubicación de información transversal, colores y disposición.
+  - Documentación del sistema de diseño, tokens de color y tipografía.
+  - Prototipo funcional para demo al cliente y ajustes posteriores.
+  - Documentación de comportamiento de componentes para desarrollo y aclaraciones sobre accesibilidad.
 
 herramientas: Figma, Figma Make
 
 portada_alt_en: Overview of the website component library in grayscale, grouped by type: content in columns, map, running text, pagination, sharing, app download, 404 error, results cards, video section, image banners, banner card and quote.
-portada_alt_es: Vista general de la biblioteca de componentes web en escala de grises, agrupados por tipo: contenido en columnas, mapa, texto corrido, paginación, compartir, descarga de app, error 404, tarjetas de resultados, sección de vídeo, banners de imagen, banner con tarjeta y cita.
+portada_alt_es: Imagen principal del proyecto: Seguros · Migración a AEM
