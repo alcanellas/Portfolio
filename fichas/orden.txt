@@ -3,6 +3,7 @@
 # Los que NO tienen ficha (design-system-marca-blanca) son páginas hechas a mano: se ordenan y enlazan igual.
 design-system-marca-blanca
 sanidad-nutricion-parenteral
+aplicacion-operarios-campo
 seguros-migracion-aem
 turismo-accesibilidad
 sanidad-app-interna

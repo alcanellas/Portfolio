@@ -1,0 +1,48 @@
+# Ficha del proyecto confidencial "aplicacion-operarios-campo". Estructura FIJA: no se pueden añadir secciones.
+# Edita los textos y ejecuta:  python3 tools/construir.py
+tipo: confidencial
+archivo: aplicacion-operarios-campo
+anio: 2026
+empresa: Accenture Spain
+sector_en: Energy
+sector_es: Energía
+
+titulo_en: Energy · Digitizing Inventory Management
+titulo_es: Energía · Digitalización de la gestión de inventario
+etiquetas_en: Mobile Design, Prototyping, User flows
+etiquetas_es: Mobile Design, Prototyping, User flows
+etiquetas_tarjeta_en: Mobile Design, Prototyping, User flows
+etiquetas_tarjeta_es: Mobile Design, Prototyping, User flows
+
+descripcion_en: |
+  UX/UI design of a mobile application that digitizes field asset inventory processes, simplifying complex workflows and enabling teams to work both online and offline.
+
+descripcion_es: |
+  Diseño UX/UI de una aplicación móvil para digitalizar la captura y gestión de inventario de activos, simplificando procesos complejos y permitiendo trabajar tanto online como offline.
+
+hizo_en:
+  - Definition of the requirements and functional scope of the mobile application.
+  - Design of the information architecture, user flows and navigation.
+  - Analysis of the design system provided by the client and identification of the components required for the application's development.
+  - UX/UI design of the mobile application, based on initial screens generated with Claude Code and subsequently refined in line with the client's requirements.
+  - Design and simplification of highly complex forms.
+  - Definition of the flows for viewing, capturing, validating and editing inventory.
+  - Adaptation of the experience to the different types of assets and components.
+  - Design of the experience for both online and offline working scenarios.
+  - Prototyping of the user flow through an HTML deliverable generated with Claude Design.
+
+hizo_es:
+  - Definición de los requisitos y del alcance funcional de la aplicación móvil.
+  - Diseño de la arquitectura de información, de los flujos de usuario y de la navegación.
+  - Análisis del sistema de diseño proporcionado por el cliente e identificación de los componentes necesarios para el desarrollo de la aplicación.
+  - Diseño UX/UI de la aplicación móvil a partir de pantallas iniciales generadas con Claude Code, refinadas posteriormente conforme a los requisitos del cliente.
+  - Diseño y simplificación de formularios de alta complejidad.
+  - Definición de los flujos de consulta, captura, validación y edición de inventario.
+  - Adaptación de la experiencia a los distintos tipos de activos y componentes.
+  - Diseño de la experiencia para escenarios de trabajo con y sin conexión.
+  - Prototipado del flujo de usuario mediante un entregable HTML generado con Claude Design.
+
+herramientas: Figma, Claude Design, Claude Code
+
+portada_alt_en: Overview of the user flow designed on Figma.
+portada_alt_es: Imagen principal del proyecto: flujo de usuario diseñado en Figma.
